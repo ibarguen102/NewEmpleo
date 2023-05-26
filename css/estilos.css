@@ -14,13 +14,15 @@ header {
 
 header #logo{
 	height: 20vh;
-	float: left;
+	float: left;	
 	/*border: 1px solid #000;*/
 }
 
 header #logo img{
     height:20vh;
-	
+	 border-radius: 50%;
+    border:1px black dashed;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
 }
 
 header .menu{
@@ -35,7 +37,7 @@ header .menu ul li{
 	/*border: 2px solid #000;*/
 }
 header .menu ul li a{
-	background: #6e050e;
+	background: #D7DBDD;
 	text-decoration: none;
 	padding: 10px 15px;
 	color #fff;
@@ -52,15 +54,15 @@ header .menu ul li a:hover{
 	max-height:1200px;
 	text-align:center;
 	float:right;
-	border: 2px solid #000;
+	/*border: 2px solid #000;
 	/*height: 40vh;
 	float: left;
 	border: 2px solid #000;*/
 }
 #perfil img{
-	height:40vh;
+	height:30vh;
 	float: left;
-	border:1 solid #000;
+	/*border:1 solid #000;*/
 }
 #perfil h1{
 	font-size:3.0rem;
@@ -86,7 +88,13 @@ header .menu ul li a:hover{
 	color:#2d2f238;
 	margin-left:8px;
 	margin-right:8px;
-	border: 2px solid #000;
+	/*border: 2px solid #000;*/
+	bborder-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border:1px black solid;
+    background-color:white;
+    padding:10px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
 	/*border: 1px solid #2d2f238;*/
 }
 #recuadros .recuadro.parrafo{
